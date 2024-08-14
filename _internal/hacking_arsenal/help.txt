@@ -1,0 +1,102 @@
+Help Guide: Command-Line Tool for Network Utilities
+
+This tool is a versatile command-line utility that provides essential functions for network analysis and password management.
+ It includes the following features:
+
+    1. Packet Sniffer: Capture and analyze network packets.
+    2. Port Scanner: Scan a target machine for open ports.
+    3. SHA1 Cracker: Attempt to crack SHA1 hashes using a dictionary attack.
+    4. Password Generator: Generate strong, random passwords.
+
+Menu Options
+
+The tool is designed with a menu-based interface, allowing users to navigate between different functionalities easily.
+ Below is a brief description of each menu option and how to use it.
+
+1 - Port Scanner: Start the port scanner to identify open ports on a specified target.
+
+2 - Packet Sniffer: Launch the packet sniffer to monitor and capture packets on the network.
+
+3 - SHA1 Password Cracker: Input a SHA1 hash and attempt to crack it using a dictionary attack.
+
+4 - Password Generator: Generate a random password with customizable parameters (length, complexity).
+
+5 - Help: Access this help guide for detailed information about each function.
+
+6 - Exit: Exit the tool.
+
+Features:
+
+1. Port Scanner
+
+The Port Scanner allows you to scan a specific IP address for open ports.
+
+Usage:
+    Select option 1 from the main menu.
+    Enter the target IP address.
+    Provide a port range (e.g., 1-1024). If left empty, it will default to scanning the most common ports.
+    The tool will display a list of open ports.
+
+Example:
+Enter target IP: 192.168.1.1
+Enter port range (default: 1-1024): 
+Open ports on 192.168.1.1: 22, 80, 443
+
+
+2. Packet Sniffer
+The Packet Sniffer captures network packets on a specified network interface.
+
+Usage:
+    Select option 2 from the main menu.
+    The tool will automatically start capturing packets on the default network interface (e.g., eth0 on Linux systems).
+    Press Ctrl+C to stop the sniffer.
+
+Example:
+Packet: IP 192.168.1.1 -> 192.168.1.2 TCP 80 -> 1025
+
+
+3. SHA1 Password Cracker
+The SHA1 Cracker attempts to find the plaintext password corresponding to a given SHA1 hash using a dictionary attack.
+
+Usage:
+    Select option 3 from the main menu.
+    Input the SHA1 hash you wish to crack.
+    The tool will iterate through a list of common passwords (from passwords.txt) and compare their SHA1 hashes to the given one.
+    If a match is found, the corresponding plaintext password will be displayed.
+    Example:
+    Enter SHA1 to crack: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+    Password found: password
+
+
+4. Password Generator
+The Password Generator creates strong, random passwords with customizable options.
+
+Usage:
+    Select option 4 from the main menu.
+    Specify the desired length of the password.
+    Choose whether to include special characters, numbers, and uppercase letters.
+    The tool will generate and display the password.
+
+
+Troubleshooting:
+
+    Module Not Found Error: Ensure that all necessary Python modules are installed using pip. 
+    Example modules include scapy, hashlib, and pynput.
+    Permission Issues: Running the packet sniffer may require administrative privileges. 
+    Run the script as sudo or as an administrator on Windows.
+    Invalid Input: Always double-check the format of your input
+    , especially for IP addresses, port ranges, and SHA1 hashes.
+
+
+Additional Resources
+For further information, you can refer to:
+
+    Python Documentation: https://docs.python.org/3/
+    Scapy Documentation: https://scapy.readthedocs.io/
+    Hashlib Documentation: https://docs.python.org/3/library/hashlib.html
+
+
+My links:
+https://www.youtube.com/@duawp
+https://github.com/yqr5
+https://x.com/FrankZane95   
