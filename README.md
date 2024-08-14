@@ -8,3 +8,25 @@ HackingArsenal is a powerful and versatile toolset designed for cybersecurity en
     SHA-1 Password Cracker: A brute-force tool designed to crack SHA-1 hashed passwords, demonstrating the importance of strong password practices.
 
 This toolkit is intended for educational purposes and ethical hacking only. Use responsibly and with permission.
+
+
+How to use:
+Put the files into a folder and open 'hell.exe' to use .
+
+If you need help usinf the menu there is a help section in the menu :D
+Enjoy and please star it ☆. Thank you ;).
+
+I will make a better menu soon with a keylogger and everything thats not included. if you have any suggestions my Twitter/𝕏 is == https://x.com/FrankZane95 
+contact me there.
+
+
+
+
+
+
+
+
+
+
+
+
