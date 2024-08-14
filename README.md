@@ -19,7 +19,7 @@ Enjoy and please star it ☆. Thank you ;).
 I will make a better menu soon with a keylogger and everything thats not included. if you have any suggestions my Twitter/𝕏 is == https://x.com/FrankZane95 
 contact me there.
 
-
+P.S the packet sniffer works on linux not on windows since you need sudo permission :) if you can make it work on windows tell me how .
 
 
 
