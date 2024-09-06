@@ -34,8 +34,6 @@ this encrypts and decrypts words for you.
  ###### I will make a better menu soon with a keylogger and everything thats not included. if you have any suggestions my Twitter/𝕏 is == https://x.com/FrankZane95 
     
 
-      - P.S a keylogger will be added soon ..
-
 
 
 
